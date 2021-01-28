@@ -1,0 +1,53 @@
+.container {
+	background: rgb(71, 187, 255);
+	height: 8vh;
+}
+
+.inner-nav {
+	width: 90%;
+	height: 100%;
+	margin: auto 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1 1 40rem;
+	flex-wrap: wrap;
+	padding-top: 2rem;
+}
+.logo {
+	background: rgb(255, 255, 255);
+	@include logo-style;
+	position: relative;
+}
+.logo::after {
+	content: "";
+
+	// background: rgba(71, 157, 255, 0.719);
+	background: rgba(255, 71, 230, 0.719);
+	@include logo-style;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+.dots {
+	display: grid;
+	color: white;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 9px 9px;
+	font-size: 1rem;
+}
+.site-name {
+	font-size: 2rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	color: white;
+}
+.btn {
+	background-color: white;
+	border-radius: 35px;
+	padding: 1.5rem 4rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 2px 2px 7px rgba(58, 58, 58, 0.212);
+}

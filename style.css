@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  font-size: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.container {
+  background: #47bbff;
+  height: 8vh;
+}
+
+.inner-nav {
+  width: 90%;
+  height: 100%;
+  margin: auto 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.logo {
+  background: white;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  position: relative;
+}
+
+.logo::after {
+  content: "";
+  background: rgba(255, 71, 230, 0.719);
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.dots {
+  display: -ms-grid;
+  display: grid;
+  color: white;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 9px 9px;
+  font-size: 1rem;
+}
+
+.site-name {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  color: white;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 35px;
+  padding: 1.5rem 4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 7px rgba(58, 58, 58, 0.212);
+          box-shadow: 2px 2px 7px rgba(58, 58, 58, 0.212);
+}
+
+main {
+  background: #47bbff;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,5 @@
+main {
+	background: rgb(71, 187, 255);
+	height: 95vh;
+	@include flex-row;
+}
