@@ -1,5 +1,24 @@
 main {
 	background: rgb(71, 187, 255);
-	height: 95vh;
+	height: 88vh;
 	@include flex-row;
+}
+.quote-box {
+	@include flex-row;
+	width: 50vw;
+	padding: 10rem;
+	background: rgb(38, 150, 214);
+	border-radius: 15px;
+	position: relative;
+}
+.quote-box h1 {
+	color: white;
+	line-height: 2.5rem;
+	letter-spacing: 0.1rem;
+}
+.quote-box p {
+	color: white;
+	position: absolute;
+	bottom: 40px;
+	right: 30px;
 }

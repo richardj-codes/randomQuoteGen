@@ -29,7 +29,7 @@ p {
 
 .container {
   background: #47bbff;
-  height: 8vh;
+  height: 12vh;
 }
 
 .inner-nav {
@@ -102,7 +102,7 @@ p {
 
 main {
   background: #47bbff;
-  height: 95vh;
+  height: 88vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,5 +112,35 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.quote-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50vw;
+  padding: 10rem;
+  background: #2696d6;
+  border-radius: 15px;
+  position: relative;
+}
+
+.quote-box h1 {
+  color: white;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.quote-box p {
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  right: 30px;
 }
 /*# sourceMappingURL=style.css.map */
