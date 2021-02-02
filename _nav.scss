@@ -1,6 +1,7 @@
 .container {
-	background: rgb(71, 187, 255);
-	height: 12vh;
+	// background: transparent;
+	background: rgba(46, 157, 221, 0.76);
+	height: 8vh;
 }
 
 .inner-nav {
@@ -12,7 +13,7 @@
 	align-items: center;
 	flex: 1 1 40rem;
 	flex-wrap: wrap;
-	padding-top: 2rem;
+	padding-top: 3rem;
 }
 .logo {
 	background: rgb(255, 255, 255);
@@ -50,4 +51,9 @@
 	font-weight: bold;
 	cursor: pointer;
 	box-shadow: 2px 2px 7px rgba(58, 58, 58, 0.212);
+	outline: transparent;
+	transition: all 0.3s ease-out;
+	&:hover {
+		transform: scale(1.1);
+	}
 }
