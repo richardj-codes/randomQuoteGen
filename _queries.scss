@@ -103,3 +103,19 @@
 		position: absolute;
 	}
 }
+@media screen and(max-width: 280px) {
+	.logo {
+		display: none;
+	}
+	.inner-nav {
+		width: 90%;
+		height: 100%;
+		margin: auto 5%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex: 1 1 40rem;
+		flex-wrap: wrap;
+		padding-top: 3rem;
+	}
+}
