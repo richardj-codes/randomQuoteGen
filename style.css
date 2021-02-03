@@ -315,7 +315,7 @@ main {
             flex: 1 1 40rem;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    padding-top: 1.5rem;
+    padding-top: 2.5rem;
   }
   .container {
     height: 15vh;
