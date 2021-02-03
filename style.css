@@ -293,7 +293,7 @@ main {
   }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 321px) {
   .logo {
     display: none;
   }
