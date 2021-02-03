@@ -322,11 +322,11 @@ main {
   }
   .quote-box h1 {
     letter-spacing: 0.09rem;
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
   }
   .quote-box {
-    padding: 3rem;
+    padding: 2.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
