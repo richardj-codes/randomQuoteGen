@@ -323,6 +323,10 @@ main {
   .quote-box h1 {
     letter-spacing: 0.09rem;
     font-size: 2rem;
+    line-height: 3rem;
+  }
+  .quote-box {
+    padding: 3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
