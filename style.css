@@ -318,7 +318,11 @@ main {
     padding-top: 3rem;
   }
   .container {
-    height: 14vh;
+    height: 15vh;
+  }
+  .quote-box h1 {
+    letter-spacing: 0.09rem;
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
