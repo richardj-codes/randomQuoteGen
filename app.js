@@ -50,7 +50,7 @@ let quoteList = [
 	},
 	{
 		quote:
-			"The big lesson in life, baby, is never be scared of anyone or anything.”",
+			"The big lesson in life, baby, is never be scared of anyone or anything.",
 		author: "Frank Sinatra",
 	},
 ];
@@ -59,5 +59,5 @@ btn.addEventListener("click", function () {
 	for (obj of quoteList)
 		rando = quoteList[Math.floor(Math.random() * quoteList.length)];
 	author.innerHTML = `~${rando.author}`;
-	quote.innerHTML = rando.quote;
+	quote.innerHTML = `"<em>${rando.quote}</em>"`;
 });

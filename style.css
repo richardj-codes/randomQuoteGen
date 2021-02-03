@@ -28,6 +28,12 @@ p {
   font-size: 1.6rem;
 }
 
+img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
 .container {
   background: rgba(46, 157, 221, 0.76);
   height: 8vh;
@@ -134,6 +140,9 @@ main {
   background-size: cover;
   height: 100%;
   max-width: 100%;
+  position: relative;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .quote-box {
@@ -161,9 +170,126 @@ main {
 }
 
 .quote-box p {
-  color: white;
+  color: #ffeeee;
   position: absolute;
   bottom: 8px;
   right: 30px;
+}
+
+@media screen and (max-width: 1735px) {
+  .quote-box h1 {
+    letter-spacing: 0.1rem;
+  }
+  .quote-box p {
+    bottom: 8px;
+    right: 50%;
+  }
+}
+
+@media screen and (max-width: 1515px) {
+  .quote-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    padding: 7rem;
+    background: #2696d6;
+    border-radius: 15px;
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .quote-box h1 {
+    letter-spacing: 0.14rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+  .quote-box p {
+    bottom: 8px;
+    right: 05%;
+  }
+  .container-main {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: none;
+  }
+  .container-main:before {
+    content: "";
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: url(/threedBackground.png) no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .quote-box h1 {
+    letter-spacing: 0.09rem;
+  }
+  .quote-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    padding: 5rem;
+    background: #2696d6;
+    border-radius: 15px;
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .dots {
+    display: none;
+  }
+  .site-name {
+    display: none;
+  }
+  .container-main {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: none;
+  }
+  .container-main:before {
+    content: "";
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: url(/threedBackground.png) no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+    position: absolute;
+  }
 }
 /*# sourceMappingURL=style.css.map */

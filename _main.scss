@@ -14,7 +14,10 @@ main {
 	background-size: cover;
 	height: 100%;
 	max-width: 100%;
+	position: relative;
+	transition: all 0.5s ease-in-out;
 }
+
 .quote-box {
 	@include flex-row;
 	width: 33%;
@@ -31,7 +34,7 @@ main {
 	font-weight: 500;
 }
 .quote-box p {
-	color: white;
+	color: rgb(255, 238, 238);
 	position: absolute;
 	bottom: 8px;
 	right: 30px;
