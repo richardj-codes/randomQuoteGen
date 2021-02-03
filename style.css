@@ -317,5 +317,8 @@ main {
         flex-wrap: wrap;
     padding-top: 3rem;
   }
+  .container {
+    height: 11vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
